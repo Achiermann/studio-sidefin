@@ -9,16 +9,11 @@ export default function About() {
   /*** FUNCTIONS/HANDLERS ***/
 
   return (
-    <div className="home">
-      <div className="logo-display">
-        <Link href="/">
-        </Link>
-      </div>
       <main>
         <section className="section">
           <div className="container">
             <h2 className="highlight-bg">About</h2>
-            <div className="home-content">
+            <div className="main-content">
               <p>
                 Studio Sidefin is a web agency dedicated to crafting exceptional
                 digital experiences. We believe in the power of simplicity and
@@ -32,6 +27,5 @@ export default function About() {
           </div>
         </section>
       </main>
-    </div>
   );
 }

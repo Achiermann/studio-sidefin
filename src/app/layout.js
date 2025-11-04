@@ -1,5 +1,5 @@
 import { Anonymous_Pro } from "next/font/google";
-import "../../styles/main.css";
+import "../../styles/global.css";
 import "../../styles/layout.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,25 +19,22 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={anonymousPro.className}>
-        <header className="header">
+        {/* <header className="header">
           <nav className="header-nav">
-            <div className="container">
+            <div className="header-nav-links">
               <Link href="/work" className="header-nav-link">Work</Link>
               <Link href="/about" className="header-nav-link">About</Link>
             </div>
           </nav>
           <div className="header-logo-display">
-            <Image src="/studio-sidefin-logo-2.png" alt="Studio Sidefin Logo" className="header-logo" width={200} height={200} />
+            <Link href="/">
+              <Image src="/studio-sidefin-logo-2.png" alt="Studio Sidefin Logo" className="header-logo" width={200} height={200} />
+            </Link>
           </div>
-        </header>
+        </header> */}
         <main className="content">
           {children}
         </main>
-        <footer className="home-footer">
-          <div className="container">
-            <p className="text-muted">© 2025 Studio Sidefin</p>
-          </div>
-        </footer>
       </body>
     </html>
   );

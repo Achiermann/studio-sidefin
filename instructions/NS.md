@@ -2,9 +2,8 @@ ONLY follow the following instructions if explicitly told:
 
 <!-- .1 Task -->
 
-Clean up the classNames. On the top in the layout theres a header. Call this one "header" and all its content starts with "header". the main content should be called "content". 
-
-dont change any css-styles but update the classNames also in CSS.
+merge home.css and landing-page.css to just home.css
+and remove all @media, we dont need that yet
 
 <!-- .2 Disclaimer -->
 

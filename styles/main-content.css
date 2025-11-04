@@ -1,0 +1,23 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-logo-display {
+  display: flex;
+  justify-content: center;
+  }
+
+.main-content {
+  max-width: 800px;
+}
+
+.main-content p {
+  line-height: 1.8;
+}
+
+.content p {
+  line-height: 1.8;
+}
+

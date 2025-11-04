@@ -9,14 +9,14 @@ export default function Work() {
   /*** FUNCTIONS/HANDLERS ***/
 
   return (
-    <div className="home">
+    <div className="main">
         <Link href="/">
         </Link>
       <main>
         <section className="section">
           <div className="container">
             <h2 className="highlight-bg">Work</h2>
-            <div className="home-content">
+            <div className="main-content">
               <p>
                 We specialize in creating modern web applications that solve real problems.
                 Our focus is on clean code, intuitive interfaces, and scalable solutions.
